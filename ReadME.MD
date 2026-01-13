@@ -1,7 +1,8 @@
 📱 Limit-Centre Bot (WhatsApp)
-
+---
 This bot helps admins monitor the Limit Centre in WhatsApp groups.
 It automatically reads messages in a specific format (M, R, N, L, K) and sends updates to the LIMIT_GROUP_JID.
+---
 
 🔹 Features
 
@@ -23,6 +24,7 @@ Terminal logging with timestamp & emoji
 Auto-reconnect if WhatsApp connection is lost
 
 QR Code login for WhatsApp session
+---
 
 🧰 Requirements
 
@@ -33,6 +35,7 @@ WhatsApp account for the bot
 Access to the groups you want to monitor
 
 Terminal/server to run the bot (VPS, Replit, Heroku, etc.)
+---
 
 ⚙️ Installation
 
@@ -73,6 +76,7 @@ const GROUP_ALIAS = {
   'pengcm33(604)(n207)': 'PENG-CM',
   ...
 };
+---
 
 🚀 Running the Bot
 node bot.js
@@ -104,6 +108,7 @@ L → Group L
 K → Optional extra indicator
 
 The bot will send messages to the Limit Centre with group alias & line code
+---
 
 📊 Logging
 
@@ -126,14 +131,15 @@ Auto-reconnect handles lost connections
 Make sure the bot is admin in all monitored groups to read messages
 
 Use a VPS or PC 24/7 to keep the bot active
+---
 
 📦 Repository Structure
 limit-bot/
 ├── bot.js              # Main bot script
 ├── package.json        # Dependencies
 ├── auth_info_bot/      # WhatsApp session storage
-├── full_log.txt        # Optional log file
 └── node_modules/
+---
 
 🛠️ Deployment
 Heroku
@@ -155,6 +161,7 @@ Add auth_info_bot as persistent storage
 Run node bot.js
 
 Scan QR from terminal
+---
 
 ⚖️ License
 
