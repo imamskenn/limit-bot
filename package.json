@@ -1,13 +1,13 @@
 {
-  "name": "wa-bot",
+  "name": "limit-bot",
   "version": "1.0.0",
-  "description": "WhatsApp Bot Limit Centre using Baileys",
+  "description": "WhatsApp Bot Limit Centre by imamskenn",
   "main": "bot.js",
   "type": "module",
   "scripts": {
     "start": "node bot.js"
   },
-  "author": "Bang Imam",
+  "author": "Imam S Kennedy",
   "license": "MIT",
   "keywords": [],
   "dependencies": {
