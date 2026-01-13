@@ -98,7 +98,7 @@ const GROUP_ALIAS = {
   'bkt2888 (629)': 'BKT-288'
 };
 
-const LIMIT_GROUP_JID = '120363395890739757@g.us';
+const LIMIT_GROUP_JID = 'yourgroupJID@g.us';
 const groupCache = {};
 
 // ===================== FUNCTIONS =====================
